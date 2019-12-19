@@ -75,7 +75,7 @@ git push -u origin 分支(master)		上传到github仓库
 ### 2.拉取
 
 ```
-git pull
+git pull	拉取更新远程最新代码
 ```
 
 
