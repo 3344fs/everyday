@@ -1,0 +1,13 @@
+CACHE MANIFEST
+#上邊的必須是第一行
+
+#需要緩存的內容	* 代表所有文件
+CACHE:
+../img/1.jpg
+
+#每次打開重新獲取的內容
+NETWORK
+
+#如果文件找不到，用拎一個代替		/ 代表所有文件
+FALLBACK
+../img/1.jpg ../img/2.jpg

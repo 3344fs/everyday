@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh" >
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Test</title>
+		<script type="text/javascript">
+			var wx = ['你好','很好','非常好','特别好','好死了','太好了']
+			function lis (arr) {
+				for(var index in arr){
+					document.write("<li>" + wx[index] + "</li>")
+				}
+			}
+			function liss (item,fun) {
+				fun(item)
+			}
+		</script>
+	</head>
+	<body>
+		<ul>
+			<script>
+				//枚举数组内容并输出
+				liss(wx,lis)
+			</script>
+			
+		</ul>
+	</body>
+	<script type="text/javascript">
+		
+	</script>
+		
+</html>
